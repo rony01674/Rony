@@ -1,0 +1,88 @@
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git add .
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git push
+Everything up-to-date
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git commit -m "excel result"
+[master b5bee25] excel result
+ 1 file changed, 2 insertions(+)
+ create mode 100644 Excel Rules.txt
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 402 bytes | 402.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rony01674/Rony.git
+   6392d4b..b5bee25  master -> master
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git update
+Warning! `git update` has been deprecated;
+Please use `git update-git-for-windows` instead.
+Git for Windows 2.18.0.windows.1 (64bit)
+Update 2.19.0.windows.1 is available
+Download and install Git for Windows 2.19.0 [N/y]?
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    Excel Rules.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git push origin master
+Everything up-to-date
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git add .
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git put origin master
+git: 'put' is not a git command. See 'git --help'.
+
+The most similar commands are
+        pull
+        push
+        update
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git push origin master
+Everything up-to-date
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git commit -m"excel rules"
+[master b6c511c] excel rules
+ 1 file changed, 2 deletions(-)
+ delete mode 100644 Excel Rules.txt
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 268 bytes | 268.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/rony01674/Rony.git
+   b5bee25..b6c511c  master -> master
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$ ^C
+
+User@DESKTOP-8CPLBO0 MINGW64 /d/git/Rony (master)
+$
